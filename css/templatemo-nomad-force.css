@@ -49,7 +49,7 @@ body {
     
 }
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 3px;
 }
  
 ::-webkit-scrollbar-track {
@@ -237,9 +237,10 @@ strong {
  
 .badan h2
 {
-    color: dodgerblue;
+    color: var(--primary-color);
     border-bottom: 1px solid gainsboro;
     margin-bottom: 20px;
+    text-align: center;
 }
  
 .tabel-harga
@@ -247,7 +248,7 @@ strong {
     float: left;
     margin: 10px;
     border: 1px solid gainsboro;
-    width: 300px;
+    width:30%;
 }
  
 .header
@@ -282,7 +283,7 @@ strong {
  
 .header-profesional
 {
-    background-color: green;
+    background-color: #ffc107;
     color: white;
 }
  
@@ -290,12 +291,14 @@ strong {
 {
     list-style-type: none;
 }
+
  
 .tabel-harga ul li
 {
     padding: 5px;
     border-bottom: 1px solid gainsboro;
     margin: 0 5px 0 5px;
+    
 }
  
 .ruang-tombol
@@ -317,7 +320,8 @@ strong {
 .selengkapnya:hover
 {
     transition-duration: 0.8s;
-    background-color: black;
+    opacity: 0.7;
+    color: #fcfeff;
 }
 
 /*---------------------------------------
@@ -686,8 +690,8 @@ strong {
   SECTION               
 -----------------------------------------*/
 .section-padding {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 6rem;
+  padding-bottom: 6rem;
 }
 
 /*---------------------------------------
